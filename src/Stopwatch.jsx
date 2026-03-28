@@ -1,6 +1,6 @@
 import  React, {useState, useEffect, useRef} from 'react';
 
-function topwatch(){
+function Stopwatch(){
       const [isRunning, setISRunning] = useState(false);
       const [elapsedTime,setElapsedTime] = useState(0);
       const intervalIDRef = useRef(null);
